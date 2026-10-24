@@ -1,5 +1,8 @@
 name: 自动同步Fork
 
+permissions:
+    contents: write
+
 on:
   workflow_dispatch:   # 手动触发，推荐
    schedule:
